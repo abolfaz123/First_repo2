@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فروشگاه لوازم جانبی موبایل</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+  }
+
+  body {
+    background: #f4f6f9;
+    color: #222;
+  }
+
+  header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  header .phone {
+    background: #ff9800;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  header .phone:hover {
+    background: #e68900;
+  }
+	.banner {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .banner h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .banner p {
+    font-size: 16px;
+    opacity: 0.9;
+  }
+
+  .products {
+    padding: 50px 40px;
+  }
+
+  .products h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 26px;
+    color: #1e3c72;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  }
+
+  .card .icon {
+    font-size: 60px;
+    background: #eef2ff;
+    padding: 30px 0;
+  }
+
+  .card h3 {
+    margin: 15px 0 8px;
+    font-size: 18px;
+    color: #1e3c72;
+  }
+
+  .card p {
+    font-size: 13px;
+    color: #777;
+    padding: 0 15px 15px;
+  }
+
+  .card .price {
+    font-weight: bold;
+    color: #ff5722;
+    font-size: 15px;
+  }
+
+  footer {
+    background: #1e3c72;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+  }
+
+  footer .call {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff9800;
+    margin: 10px 0;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  footer p {
+    font-size: 13px;
+    opacity: 0.8;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      padding: 15px 20px;
+      justify-content: center;
+      text-align: center;
+    }
+    .products {
+      padding: 30px 20px;
+    }
+    .banner h2 {
+      font-size: 22px;
+    }
+  }
+</style>
+</head>
+<body>
+	<header>
+  <h1>🛍️ فروشگاه لوازم جانبی موبایل</h1>
+  <a href="tel:09010801873" class="phone">📞 09010801873</a>
+</header>
+
+<section class="banner">
+  <h2>انواع لوازم جانبی گوشی</h2>
+  <p>هدفون، هندزفری، ساعت هوشمند، باند اسپیکر و هر آنچه نیاز دارید</p>
+</section>
+
+<section class="products">
+  <h2>محصولات ما</h2>
+  <div class="grid">
+
+    <div class="card">
+      <div class="icon">🎧</div>
+      <h3>هدفون بی‌سیم</h3>
+      <p>کیفیت صدای عالی با طراحی مدرن</p>
+      <span class="price">قیمت مناسب</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎧</div>
+      <h3>هندزفری</h3>
+      <p>مناسب تماس و موسیقی با کیفیت</p>
+      <span class="price">قیمت مناسب</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">⌚</div>
+      <h3>ساعت هوشمند</h3>
+      <p>ساعت‌های هوشمند با امکانات کامل</p>
+      <span class="price">قیمت مناسب</span>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔊</div>
+      <h3>باند اسپیکر</h3>
+      <p>صدای بلند و با کیفیت برای هر مکان</p>
+      <span class="price">قیمت مناسب</span>
+    </div>
+	 
